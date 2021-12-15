@@ -1,0 +1,148 @@
+body{
+  background-image: url("../image/background (4).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img{
+  display: block;/* got help with this from w3schools to be able to centre my logo at the tiop of page in the centre*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%
+}
+  /* about page styling - some notes refer to both pages*/
+
+.tabs{  /* the tabs are the Menu for each page. trying to figure out why my writing is bigger on the cast page and smaller on about page - found out why this was for some reason about page was set to 80% internet view and cast page was set to the normal 100% internet view.*/
+  float: left;
+  width:44%;
+  background-color: black; /* wanted this to be solid black to stand out as it the menu */
+  text-align: center;
+  color: orange;  /* chose orange to complement the film logo and the font below was as close as could find to logo to */
+  font-family: Georgia, serif;
+  font-size: 24px;
+  margin:1%;
+  padding: 1%;
+  box-sizing: 50%;
+  border: 3px solid orange;
+  border-radius: 5px;
+  }
+
+.synopsis{  /* having the text/photos ect in boxes make the website easyer to follow also giveing a more professional look to the website */
+  float:left;
+  /* trying to get background black to be more see through without it changing the font opacity still trying to work this out */
+  background: rgba(0, 0, 0, 0.8);   /* thanks to w3schools managed to find out how to change background colour hardness then tried different one, until found the right one to fit the page nicely also looked on google to find the right rgba for black background*/
+  text-align: center;
+  color: orange;
+  opacity: 1;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  margin:1%;
+  padding: 1%;
+  box-sizing: 50%;
+  border: 3px solid orange;
+  border-radius: 5px
+}
+
+.trailer{
+  float: center;
+  width: 100%;
+}
+
+  /* Cast page styling - some note refer to both pages*/
+h1
+{
+  font-family: Georgia, serif;
+  font-size: 26px;
+}
+
+h2
+{
+  font-family: Georgia, serif;
+  font-size: 22px;
+}
+.Emily{  /* having the text/photos ect in boxes make the website easyer to follow also giveing a more professional look to the website done for all characters and other content*/
+  float:left;
+  background: rgba(0, 0, 0, 0.8);/* thanks to w3schools managed to find out how to change background colour hardness then tried different one, until found the right one to fit the page nicely also looked on google to find the right rgba for black background*/
+  text-align: center;
+  color: orange;
+  opacity: 1;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  margin:1%;
+  padding: 1%;
+  box-sizing: 50%;
+  border: 3px solid orange;
+  border-radius: 5px
+}
+.emilyimg { /* wanted photos on left side of screen as this makes reading the text easier to follow and keeps the flow nicely*/
+  width: 28%;
+  height: auto;
+  float: left;
+  margin: 10px
+}
+
+
+  .Dwayne{
+    float:left;
+    background: rgba(0, 0, 0, 0.8);/* thanks to w3schools managed to find out how to change background colour hardness then tried different one, until found the right one to fit the page nicely also looked on google to find the right rgba for black background*/
+    text-align: center;
+    color: orange;
+    opacity: 1;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    margin:1%;
+    padding: 1%;
+    box-sizing: 50%;
+    border: 3px solid orange;
+    border-radius: 5px
+  }
+.dwayneimg {
+  width: 28%;
+  height: auto;
+  float: left;
+  margin: 10px
+
+}
+  .Jack{
+    float:left;
+    background: rgba(0, 0, 0, 0.8);/* thanks to w3schools managed to find out how to change background colour hardness then tried different one, until found the right one to fit the page nicely also looked on google to find the right rgba for black background*/
+    text-align: center;
+    color: orange;
+    opacity: 1;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    margin:1%;
+    padding: 1%;
+    box-sizing: 50%;
+    border: 3px solid orange;
+    border-radius: 5px
+  }
+  .jackimg{
+    width: 28%;
+    height: auto;
+    float: left;
+    margin: 10px
+  }
+
+  footer{
+    float: left; /* need help getting box to fit width of page, need this so that it will follow the style of the rest of the boxes, tried looking for the answer on google and w3schools but each one i try just makes the box cover the whole website will keep looking*/
+    background: rgba(0, 0, 0, 0.8);/* thanks to w3schools managed to find out how to change background colour hardness then tried different one, until found the right one to fit the page nicely also looked on google to find the right rgba for black background*/
+    text-align: center;
+    color: orange;
+    opacity: 1;
+    font-family: Georgia, serif;
+    font-size: 10px;
+    margin:1%;
+    padding: 1%;
+    box-sizing: 50%;
+    width: 95%; /* I got the box to fit width of page using px (still need help works for full screen not mobile view) changed to % and this worked better for mobile and screen view*/
+    border: 3px solid orange;
+    border-radius: 5px
+  }
+
+  .ref {/* added this so the links to different websites are orange instead of blue, also made font size for ref and footer smaller to stop it detracting from the main content */
+    text-align: center;
+    color: orange;
+    font-family: Georgia, serif;
+    font-size: 10px;
+  }
