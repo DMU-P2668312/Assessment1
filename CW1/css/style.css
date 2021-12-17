@@ -3,7 +3,7 @@ body{ /* each main name is what the styling will be done to */ /* this is my sty
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* added more notes some are relevant to both about and on cast html and the style.css */
 img{ /* the styling below is to put my logo in the centre of the page as my movie title insted of text i did this as movies are often recognised by there logos */ 
   display: block;/* got help with this from w3schools to be able to centre my logo at the tiop of page in the centre*/
   margin-left: auto;
