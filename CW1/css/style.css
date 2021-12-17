@@ -1,16 +1,18 @@
-body{
+body{ /* each main name is what the styling will be done to */ /* this is my styling to put an image as my website background instead of a colour */ 
   background-image: url("../image/background (4).jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-img{
+img{ /* the styling below is to put my logo in the centre of the page as my movie title insted of text i did this as movies are often recognised by there logos */ 
   display: block;/* got help with this from w3schools to be able to centre my logo at the tiop of page in the centre*/
   margin-left: auto;
   margin-right: auto;
   width: 30%
 }
   /* about page styling - some notes refer to both pages*/
+
+/* for the website it was desided to put content in rounded boxes as it give the website a more professional look and feel */ 
 
 .tabs{  /* the tabs are the Menu for each page. trying to figure out why my writing is bigger on the cast page and smaller on about page - found out why this was for some reason about page was set to 80% internet view and cast page was set to the normal 100% internet view.*/
   float: left;
@@ -26,6 +28,7 @@ img{
   border: 3px solid orange;
   border-radius: 5px;
   }
+
 
 .synopsis{  /* having the text/photos ect in boxes make the website easyer to follow also giveing a more professional look to the website */
   float:left;
@@ -60,6 +63,8 @@ h2
   font-family: Georgia, serif;
   font-size: 22px;
 }
+
+/* the styling for the boxes along with text can be found below this was used for each character */ 
 .Emily{  /* having the text/photos ect in boxes make the website easyer to follow also giveing a more professional look to the website done for all characters and other content*/
   float:left;
   background: rgba(0, 0, 0, 0.8);/* thanks to w3schools managed to find out how to change background colour hardness then tried different one, until found the right one to fit the page nicely also looked on google to find the right rgba for black background*/
